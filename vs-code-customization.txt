@@ -37,11 +37,12 @@
   "terminal.integrated.fontFamily": "monospace",
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.enableFileLinks": false,
 
   // terminal customization
   "workbench.colorCustomizations": {
-    "terminal.background": "#262727",
+    "terminal.background": "#262828",
     "terminal.foreground": "#0dde33",
     "terminalCursor.background": "#15dbe5",
     "terminalCursor.foreground": "#c1d812",
@@ -63,7 +64,6 @@
     "terminal.ansiYellow": "#FAC03B"
   },
   "cSpell.userWords": ["esbenp", "Fira"],
-  "window.zoomLevel": 2,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "auto-close-tag.activationOnLanguage": [
   
@@ -86,5 +86,8 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "window.zoomLevel": 2,
+  "terminal.integrated.smoothScrolling": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
 }
